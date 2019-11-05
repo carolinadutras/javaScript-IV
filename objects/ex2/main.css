@@ -1,14 +1,19 @@
+/* class da imagem */
+
 .img-rounded {
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
-.avatar {
+
+/* class da div */
+.card-avatar {
   width: 20%;
   display: inline-block;
   text-align: center;
 }
 
+/* cor de fundo div */
 .green {
-  background-color: green
+  background-color: green;
 }

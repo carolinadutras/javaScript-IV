@@ -6,3 +6,27 @@ const users = [{
   nome: "Doge",
   imagem: "https://images-na.ssl-images-amazon.com/images/I/81-yKbVND-L._SY355_.png"
 }]
+
+class Avatar {
+  constructor( nome, imagem){
+    this.nome = nome
+    this.imagem = imagem
+  }
+
+  criaAvatar(){
+    const div = `<div class = "card-avatar green">
+    <img class ='img-rounded' src = ${this.imagem} > </img>
+    <h2> ${this.nome}</h2>
+    </div>
+    `
+    document.getElementById('cards-section').insertAdjacentHTML('beforeend', div)
+  }
+}
+users.map((user)=> {
+  new Avatar (user.nome, user.imagem).criaAvatar()
+})
+// ouuuuu 
+// const avatar1 = new Avatar (users[0].nome, users[0].imagem)
+// avatar1.criaAvatar()
+// const avatar2 = new Avatar (users[1].nome, users[1].imagem)
+// avatar2.criaAvatar()
