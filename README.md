@@ -1,3 +1,4 @@
+
 # T8-javascript-IV
 Turma 8 | Front-end | 2019 | Semana 13 | Javascript IV
 
@@ -116,9 +117,7 @@ E ao final fizemos o processo de Pull Request pelo github
 - [Git flow - github](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 - [Git flow - gitlab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Git flow - bitbucket](https://br.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-<<<<<<< HEAD
->>>>>>> upstream/aula2
-=======
+
 
 ## Conteudo Aula 2
 #### Object
@@ -210,4 +209,5 @@ class Crianca{
 
 ##### Material extra
 [slides adicionais da T7-Javascript-IV](https://docs.google.com/presentation/d/1Gkfxzmm3NjleJwvB4yC9k7C_TPa9HloIy0pRO4tLDD0/edit?usp=sharing)
->>>>>>> upstream/aula2
+
+

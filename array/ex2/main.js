@@ -16,7 +16,9 @@ const nomesNoRole =['Adriana',
 'Lia',
 'Marcela',
 'Monique',
-'Roiz',
+
+'Priscilla Roiz Garcia',
+
 'Priscilla Soares Alves',
 'Raissa',
 'Raquel',
@@ -28,6 +30,7 @@ const nomesNoRole =['Adriana',
 'Telma',
 'Thaís',
 'Valdeniza']
+
 
 const validacao = (nome) => {
     if(nome.trim() === '') throw 'O campo está vazio'
@@ -68,3 +71,47 @@ document.getElementById('form-do-role').addEventListener('submit', function(even
 
 
 })
+
+const form = document.getElementById('form-do-role')
+// const nome = document.getElementById('nome').value
+// const div = document.getElementById('status')
+// const p = document.createElement('p')
+
+const validacao = (nome) => {
+    if(nome.trim() ==='') throw 'O campo está vazio'
+}
+
+const checaPresenca = nome=>{
+    
+}
+
+
+
+
+
+form.addEventListener('submit', function () {
+    event.preventDefault()
+
+    let valorCampo = document.getElementById('nome').value
+
+try{
+    validacao(valorCampo)
+}catch(erro){
+    console.log('DEU RUIM');
+    
+}
+
+})
+
+
+//     console.log(input.value)
+//     let lista = nomesNoRole.filter((nome)=> nome ===input.value)
+//     console.log(lista)  
+//     div.appendChild(p)
+
+// if(lista.length>0){
+//     p.textContent(`A ${input.value} vai para o role`)
+// }else{
+//     p.textContent(`A ${input.value} não vai para o role`)
+// }
+
