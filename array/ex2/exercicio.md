@@ -14,7 +14,7 @@ validar se input está vazio ou não
 ### lista
 
 ```
-const nomesNoRole =['Adriana',
+const nomesNoRole = ['Adriana',
 'Adrielly',
 'Aline',
 'Ana',
@@ -32,8 +32,8 @@ const nomesNoRole =['Adriana',
 'Lia',
 'Marcela',
 'Monique',
-'Priscilla Roiz Garcia',
-'Priscilla Soares Alves',
+'Roiz',
+'Priscilla',
 'Raissa',
 'Raquel',
 'Romênia',
